@@ -1,0 +1,12 @@
+# data (download from Kaggle)
+*.csv
+data/*
+!data/README.md
+# python / jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+# generated
+submission*.csv
+catboost_info/
