@@ -1,0 +1,18 @@
+Dataset Description
+A movie review platform wants to analyze the sentiments of the different reviews posted by users of their platform. The review for the movie is given in the column "phrase" and it has been informed that it was used to generate three more features in the datasets.
+
+The task will be a multi-class classification problem predicting the sentiment of the review
+
+Files
+train.csv - The training set which contains the features and the target
+test.csv - The test set for which the target column is hidden
+sample_submission.csv - A sample submission file in the correct format
+Columns
+The dataset contains the following features:
+
+id: The index column
+phrase: Review text of the movie
+feature_1
+feature_2
+feature_3
+sentiment: Sentiment of the review with 0 for negative, 1 for neutral and 2 for positive
